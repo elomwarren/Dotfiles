@@ -92,3 +92,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# init zoxide - a better cd : should be at the end of the config file
+zoxide init fish | source
