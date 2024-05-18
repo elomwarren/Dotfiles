@@ -1,7 +1,32 @@
+#############################################################
+#                       FISH CONFIG                         #
+#############################################################
+
+
+# _______   ___       ________  _____ ______      
+# |\  ___ \ |\  \     |\   __  \|\   _ \  _   \    
+# \ \   __/|\ \  \    \ \  \|\  \ \  \\\__\ \  \   
+#  \ \  \_|/_\ \  \    \ \  \\\  \ \  \\|__| \  \  
+#   \ \  \_|\ \ \  \____\ \  \\\  \ \  \    \ \  \ 
+#    \ \_______\ \_______\ \_______\ \__\    \ \__\
+#     \|_______|\|_______|\|_______|\|__|     \|__|
+#                                                  
+#                                                  
+#                                                  
+
+
+# Add Homebrew to PATH for fish
+eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
-atuin init fish | source
+    atuin init fish | source # init fish goes here
 end
+
+# Add atuin directory /home/elomwarren/.cargo/bin to PATH
+set -x PATH "/home/linuxbrew/.linuxbrew/bin" $PATH
+
 
 # Fish greeting
 function fish_greeting
@@ -59,6 +84,8 @@ else
     end
 end
 # <<< conda initialize <<<
+
+
 
 # init zoxide - a better cd - should be at the end of the config file
 zoxide init fish | source
