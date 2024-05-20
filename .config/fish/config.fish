@@ -30,7 +30,8 @@ set -x PATH "/home/linuxbrew/.linuxbrew/bin" $PATH
 
 # Fish greeting
 function fish_greeting
-   echo "What is your main goal for today???"
+    echo "What is your main goal for today???"
+    fastfetch
 end
 
 
