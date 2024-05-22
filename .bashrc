@@ -1,4 +1,4 @@
-# .bashrc
+ # .bashrc
 
 # _______   ___       ________  _____ ______      
 # |\  ___ \ |\  \     |\   __  \|\   _ \  _   \    
@@ -35,9 +35,9 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+
 # starship config #
 eval "$(starship init bash)"
-# starship config #
 
 #######################################################
 # MACHINE SPECIFIC ALIAS'S
@@ -60,6 +60,7 @@ alias spico='sedit'
 alias nano='edit'
 alias snano='sedit'
 alias vim='nvim'
+alias cls='clear'
 # git alias for interacting with configuration repository
 alias config='/usr/bin/git --git-dir=/home/elomwarren/.cfg/ --work-tree=/home/elomwarren'
 
@@ -74,9 +75,6 @@ eval "$(atuin init bash)"
 #######################################################
 # SPECIAL FUNCTIONS
 #######################################################
-
-
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -93,5 +91,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
 # init zoxide - a better cd : should be at the end of the config file
-eval "$(zoxide init bash)"
+eval "$(zoxide init --cmd cd bash)"

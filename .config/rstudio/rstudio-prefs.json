@@ -2,7 +2,7 @@
     "initial_working_directory": "~/Documents/R_WorkDir",
     "editor_theme": "Vibrant Ink",
     "pdf_previewer": "system",
-    "posix_terminal_shell": "bash",
+    "posix_terminal_shell": "custom",
     "font_size_points": 11,
     "jobs_tab_visibility": "shown",
     "document_author": "Admin",
@@ -17,5 +17,6 @@
     "remove_history_duplicates": true,
     "highlight_selected_line": true,
     "relative_line_numbers": true,
-    "editor_keybindings": "vim"
+    "editor_keybindings": "vim",
+    "custom_shell_command": "/bin/fish"
 }

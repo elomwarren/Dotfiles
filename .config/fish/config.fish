@@ -35,8 +35,6 @@ function fish_greeting
 end
 
 
-# Install Starship
-starship init fish | source
 
 # Alias to mimic bash alias "update"
 alias update "bash -c 'sudo dnf upgrade'"
@@ -87,7 +85,8 @@ end
 # <<< conda initialize <<<
 
 
+# Install Starship
+starship init fish | source
 
 # init zoxide - a better cd - should be at the end of the config file
-zoxide init fish | source
-
+zoxide init --cmd cd fish | source
