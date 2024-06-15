@@ -91,8 +91,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-
+# The fuck
+eval "$(thefuck --alias)"
 # init zoxide - a better cd : should be at the end of the config file
 eval "$(zoxide init --cmd cd bash)"
 
-eval "$(thefuck --alias)"
