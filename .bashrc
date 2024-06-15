@@ -94,3 +94,5 @@ unset __conda_setup
 
 # init zoxide - a better cd : should be at the end of the config file
 eval "$(zoxide init --cmd cd bash)"
+
+eval "$(thefuck --alias)"
