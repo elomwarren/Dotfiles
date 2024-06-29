@@ -325,3 +325,22 @@ wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sud
 exit
 sudo pacman -Syu
 exit
+shutdown -h nnow
+reboot
+nvim /bin/sh +1 && reboot
+reboot
+reeboot
+exit
+z-library
+fish
+exigt
+exit
+fastfetch
+exit
+vim .bashrc
+fish
+exit
+source .bashrc
+source ~/.bashrc
+fish
+exit
