@@ -344,3 +344,44 @@ source .bashrc
 source ~/.bashrc
 fish
 exit
+sudo systemctl start libvirtd
+sudo systemctl enable --now libvirtd
+sudo reboot
+rstudio-desktop
+r
+r --version
+locate r
+exit
+~/miniconda3/bin/conda init bash
+exit
+cp -r Snapchat/ ~/Documents
+exit
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+sudo rm /home/linuxbrew/ -Rf
+locate -e brew | egrep -iv '(hebrew|ansible)' | grep brew
+exit
+vim .bashrc
+exit
+locate -e atuin
+chsh -l
+fish
+echo $SHELL
+chsh -s /usr/bin/fish
+exit
+sudo reboot
+zsh
+exit
+echo $PATH
+exit
+echo $PATH
+pdflatex
+latex
+exit
+latex
+exit
+exit
+source ~/.bashrc
+fish
+exit
+paru
+exit

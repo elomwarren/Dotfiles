@@ -15,17 +15,10 @@
 #                                                  
 
 
-# Add Homebrew to PATH for fish
-eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-
 if status is-interactive
     # Commands to run in interactive sessions can go here
     atuin init fish | source # init fish goes here
 end
-
-# Add atuin directory /home/elomwarren/.cargo/bin to PATH
-set -x PATH "/home/linuxbrew/.linuxbrew/bin" $PATH
 
 
 # Fish greeting
@@ -34,10 +27,6 @@ function fish_greeting
     fastfetch
 end
 
-
-
-# Alias to mimic bash alias "update"
-alias update "bash -c 'sudo dnf upgrade'"
 
 # Function to open a file !! IS it necessary?
 function open_file
@@ -71,6 +60,7 @@ alias cls 'clear'
 # git alias for interacting with configuration repository
 alias config '/usr/bin/git --git-dir=/home/elomwarren/.cfg/ --work-tree=/home/elomwarren'
 
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /home/elomwarren/miniconda3/bin/conda
@@ -83,7 +73,6 @@ else
     end
 end
 # <<< conda initialize <<<
-
 
 # Install Starship
 starship init fish | source

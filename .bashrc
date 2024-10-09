@@ -36,9 +36,6 @@ fi
 unset rc
 
 
-# starship config #
-eval "$(starship init bash)"
-
 #######################################################
 # MACHINE SPECIFIC ALIAS'S
 #######################################################
@@ -49,32 +46,14 @@ alias ll='ls -alFh'
 # Trash-CLI - put files in trash
 alias rm='trash -v'
 
-# Update system
-alias update='sudo dnf upgrade'
-
 # Set the default editor
-export EDITOR=nvim
-export VISUAL=nvim
-alias pico='edit'
-alias spico='sedit'
-alias nano='edit'
-alias snano='sedit'
 alias vim='nvim'
 alias cls='clear'
+
 # git alias for interacting with configuration repository
 alias config='/usr/bin/git --git-dir=/home/elomwarren/.cfg/ --work-tree=/home/elomwarren'
 
-# Homebrew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-. "$HOME/.cargo/env"
-
-# Atuin - Shell History - using Homebrew
-[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
-eval "$(atuin init bash)"
-
-#######################################################
 # SPECIAL FUNCTIONS
-#######################################################
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -91,8 +70,17 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+#######################################################
+
+# starship config #
+eval "$(starship init bash)"
+
+# Atuin - Shell History - using Homebrew
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"
+
 # The fuck
 eval "$(thefuck --alias)"
+
 # init zoxide - a better cd : should be at the end of the config file
 eval "$(zoxide init --cmd cd bash)"
-

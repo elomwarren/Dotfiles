@@ -37,7 +37,7 @@ text = "CellForeground"
 TERM = "xterm-256color"
 
 [font]
-size = 10.0
+size = 11.0
 
 [font.bold]
 family = "MesloLGS Nerd Font Mono"
@@ -150,7 +150,7 @@ history = 5000
 dynamic_padding = false
 opacity = 0.95
 title = "Alacritty"
-decorations = "None" 
+decorations = "Full" 
 
 [window.class]
 general = "Alacritty"
