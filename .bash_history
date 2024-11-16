@@ -385,3 +385,7 @@ fish
 exit
 paru
 exit
+exit
+conda
+btop
+exit
