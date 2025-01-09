@@ -60,6 +60,8 @@ alias cls 'clear'
 # git alias for interacting with configuration repository
 alias config '/usr/bin/git --git-dir=/home/elomwarren/.cfg/ --work-tree=/home/elomwarren'
 
+# Set the default Python interpreter
+set -x PATH /usr/bin $PATH
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

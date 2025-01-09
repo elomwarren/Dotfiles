@@ -419,3 +419,5 @@ sudo vim .bashrc
 vim .bashrc
 nano
 exit
+virt-manager
+exit
