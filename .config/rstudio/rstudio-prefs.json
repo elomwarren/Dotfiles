@@ -17,5 +17,6 @@
     "highlight_selected_line": true,
     "relative_line_numbers": true,
     "editor_keybindings": "vim",
-    "custom_shell_command": "/bin/fish"
+    "custom_shell_command": "/bin/fish",
+    "copilot_enabled": true
 }

@@ -389,3 +389,33 @@ exit
 conda
 btop
 exit
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+sudo usermod -a -G libvirt elomwarren
+sudo usermod -a -G kvm elomwarren
+reboot
+sudo reboot
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+ln -s /proc/self/fd /dev/fd
+cd Downloads/
+ll
+cd Winapps/
+ll
+./WinAppsLauncher.sh
+exit
+./setup.sh
+exit
+python -c “import gi; print(gi.path)”
+exit
+export PATH=usr/bin/python3
+virt-manager
+gnome-tweaks
+exit
+virt manager
+virt-manager
+exit
+source .bashrc
+sudo vim .bashrc
+vim .bashrc
+nano
+exit

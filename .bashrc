@@ -64,7 +64,7 @@ alias config='/usr/bin/git --git-dir=/home/elomwarren/.cfg/ --work-tree=/home/el
 # starship config #
 eval "$(starship init bash)"
 
-# Atuin - Shell History - using Homebrew
+# Atuin - Shell History
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"
 
