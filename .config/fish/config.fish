@@ -60,8 +60,11 @@ alias cls 'clear'
 # git alias for interacting with configuration repository
 alias config '/usr/bin/git --git-dir=/home/elomwarren/.cfg/ --work-tree=/home/elomwarren'
 
-# Set the default Python interpreter
-set -x PATH /usr/bin $PATH
+# Install Starship
+starship init fish | source
+
+# init zoxide - a better cd - should be at the end of the config file
+zoxide init --cmd cd fish | source
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -76,8 +79,3 @@ else
 end
 # <<< conda initialize <<<
 
-# Install Starship
-starship init fish | source
-
-# init zoxide - a better cd - should be at the end of the config file
-zoxide init --cmd cd fish | source

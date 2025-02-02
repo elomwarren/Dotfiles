@@ -421,3 +421,9 @@ nano
 exit
 virt-manager
 exit
+which -a python3
+which -a python3
+virt-manager
+exir
+exit
+conda list
