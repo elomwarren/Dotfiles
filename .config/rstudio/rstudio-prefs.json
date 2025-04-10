@@ -4,7 +4,7 @@
     "pdf_previewer": "system",
     "posix_terminal_shell": "custom",
     "jobs_tab_visibility": "shown",
-    "document_author": "Admin",
+    "document_author": "Elom Warren",
     "soft_wrap_r_files": true,
     "highlight_r_function_calls": true,
     "rainbow_parentheses": true,
@@ -15,8 +15,6 @@
     "new_proj_git_init": true,
     "remove_history_duplicates": true,
     "highlight_selected_line": true,
-    "relative_line_numbers": true,
     "editor_keybindings": "vim",
-    "custom_shell_command": "/bin/fish",
-    "copilot_enabled": true
+    "custom_shell_command": "/bin/fish"
 }
