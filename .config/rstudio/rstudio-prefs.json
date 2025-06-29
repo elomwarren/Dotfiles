@@ -1,10 +1,10 @@
 {
     "initial_working_directory": "~/Documents/R_WorkDir",
-    "editor_theme": "Vibrant Ink",
+    "editor_theme": "Cobalt",
     "pdf_previewer": "system",
     "posix_terminal_shell": "custom",
     "jobs_tab_visibility": "shown",
-    "document_author": "Elom Warren",
+    "document_author": "Admin",
     "soft_wrap_r_files": true,
     "highlight_r_function_calls": true,
     "rainbow_parentheses": true,
@@ -12,9 +12,17 @@
     "auto_save_on_idle": "commit",
     "syntax_color_console": true,
     "default_project_location": "~/Documents/00_MPHIL_STATISTICS/YEAR_1/SEM_1/STAT621_STATISTICAL_COMPUTING_AND_SIMULATIONS/06_Practice",
-    "new_proj_git_init": true,
     "remove_history_duplicates": true,
     "highlight_selected_line": true,
-    "editor_keybindings": "vim",
-    "custom_shell_command": "/bin/fish"
+    "custom_shell_command": "/bin/fish",
+    "graphics_backend": "ragg",
+    "source_with_echo": true,
+    "auto_detect_indentation": true,
+    "reformat_on_save": true,
+    "code_formatter": "styler",
+    "num_spaces_for_tab": 4,
+    "font_size_points": 11,
+    "show_help_tooltip_on_idle": true,
+    "warn_if_no_such_variable_in_scope": true,
+    "warn_variable_defined_but_not_used": true
 }

@@ -151,11 +151,12 @@ dynamic_padding = false
 opacity = 0.95
 title = "Alacritty"
 decorations = "Full" 
+startup_mode = "Maximized"
 
 [window.class]
 general = "Alacritty"
 instance = "Alacritty"
 
-[window.padding]
-x = 6
-y = 6
+# [window.padding]
+# x = 6
+# y = 6

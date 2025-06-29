@@ -44,7 +44,7 @@ unset rc
 alias ll='ls -alFh'
 
 # Trash-CLI - put files in trash
-alias rm='trash -v'
+# alias rm='trash -v'
 
 # Set the default editor
 alias vim='nvim'
@@ -66,6 +66,9 @@ eval "$(atuin init bash)"
 
 # The fuck
 eval "$(thefuck --alias)"
+
+# Add tex to PATH
+export PATH="/usr/local/texlive/2025/bin/x86_64-linux:$PATH"
 
 # init zoxide - a better cd : should be at the end of the config file
 eval "$(zoxide init --cmd cd bash)"

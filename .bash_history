@@ -427,3 +427,19 @@ virt-manager
 exir
 exit
 conda list
+source ~/.bashrc
+exit
+echo $PATH
+exit
+tlmgr
+tlmgr --help
+fish
+exiut
+exit
+echo $MANPATH
+echo $INFOPATH
+ls /var/cache/pacman/pkg/ | less 
+exit
+ifconfig
+hostname -I
+exit
