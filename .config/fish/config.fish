@@ -43,7 +43,7 @@ end
 alias todo='open_file ~/Desktop/todo.txt'
 
 # Trash-CLI alias
-alias rm 'trash -v'
+# alias rm 'trash -v'
 
 # Source config.fish
 alias source_fish "source ~/.config/fish/config.fish"
