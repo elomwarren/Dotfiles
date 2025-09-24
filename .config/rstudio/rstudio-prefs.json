@@ -4,7 +4,7 @@
     "pdf_previewer": "rstudio",
     "posix_terminal_shell": "custom",
     "jobs_tab_visibility": "shown",
-    "document_author": "Elom Kodjoh-Kpakpassou",
+    "document_author": "22258724",
     "soft_wrap_r_files": true,
     "highlight_r_function_calls": true,
     "rainbow_parentheses": true,
@@ -24,5 +24,34 @@
     "font_size_points": 11,
     "show_help_tooltip_on_idle": true,
     "warn_if_no_such_variable_in_scope": true,
-    "warn_variable_defined_but_not_used": true
+    "warn_variable_defined_but_not_used": true,
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet1",
+            "Console",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    }
 }
